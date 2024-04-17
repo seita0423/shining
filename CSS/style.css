@@ -149,6 +149,9 @@ main {
   margin: 0 auto;
   border: solid 1px black;
 }
+.news_h2 {
+  text-align: center;
+}
 .news_border {
   padding: 24px 0;
 }
