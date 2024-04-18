@@ -43,6 +43,9 @@ header {
 .header_right　 {
   align-items: end;
 }
+.br_clear {
+  display: none;
+}
 .header_phone {
   width: 60px;
 }
@@ -376,9 +379,17 @@ footer {
     max-height: 300px;
   }
 }
+@media screen and (max-width: 500px) {
+.br_clear {
+  display: inline;
+}
+}
 @media screen and (max-width: 450px) {
   .jobmenu_flex .jobmenu_img {
     width: 250px;
+  }
+  .jobmenu a {
+    padding: 16px 0;
   }
   .jobtime_map iframe {
     max-width: 300px;
